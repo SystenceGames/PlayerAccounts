@@ -1,0 +1,10 @@
+{
+    "loadBalancedPlayerAccounts": {
+        "type": "TCP",
+        "Port": 443
+    },
+    "loadBalancedAccountsHttp": {
+        "type": "TCP",
+        "Port": 10600
+    }
+}

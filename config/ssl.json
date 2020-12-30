@@ -1,0 +1,4 @@
+{
+	"pfx": "./config/CARoot.pfx",
+	"passphrase": ""
+}

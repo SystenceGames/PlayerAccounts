@@ -1,0 +1,58 @@
+﻿doctype html
+html
+  head
+    title PlayerAccounts
+  body
+    div 
+        h1 ============== /login2 ==============
+        form(method='post',action='/login2')
+            table
+                tr
+                    td playerName
+                    td 
+                        input(type='text',name='playerName',id='playerName', style='width:25em')
+                tr
+                    td password
+                    td
+                        input(type='password',name='password',id='password', style='width:25em')
+                tr
+                    td
+                        input(type='submit',name='Login',value='Login').submit-button
+    div 
+        h1 ============== /createPlayer2 ==============
+        form(method='post',action='/createPlayer2')
+            table
+                tr
+                    td playerName
+                    td 
+                        input(type='text',name='playerName',id='playerName', style='width:25em')
+                tr
+                    td password
+                    td
+                        input(type='password',name='password',id='password', style='width:25em')
+                tr
+                    td email
+                    td 
+                        input(type='text',name='email',id='email', style='width:25em')
+                tr
+                    td birthDate
+                    td 
+                        input(type='text',name='birthDate',id='birthDate', style='width:25em')
+                tr
+                    td steamUsername
+                    td 
+                        input(type='text',name='steamUsername',id='steamUsername', style='width:25em')
+                tr
+                    td
+                        input(type='submit',name='Create',value='Create').submit-button
+    div 
+        h1 ============== /verify ==============
+        form(method='post',action='/verify')
+            table
+                tr
+                    td email
+                    td 
+                        input(type='text',name='email',id='email', style='width:25em')
+                tr
+                    td
+                        input(type='submit',name='Login',value='Verify').submit-button
